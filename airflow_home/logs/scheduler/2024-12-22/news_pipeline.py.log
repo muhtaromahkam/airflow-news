@@ -699,3 +699,38 @@ ModuleNotFoundError: No module named 'pandas'
 [2024-12-23T06:40:12.904+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:12.901+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:40:13.105+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:13.103+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
 [2024-12-23T06:40:13.218+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 6.530 seconds
+[2024-12-23T06:41:07.278+0700] {processor.py:186} INFO - Started process (PID=9635) to work on /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:41:07.281+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/dags/news_pipeline.py for tasks to queue
+[2024-12-23T06:41:07.286+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:07.284+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:41:12.765+0700] {processor.py:925} INFO - DAG(s) 'news_pipeline' retrieved from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:41:12.804+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:12.802+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:41:12.847+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:12.845+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T06:41:12.928+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 5.671 seconds
+[2024-12-23T06:42:05.147+0700] {processor.py:186} INFO - Started process (PID=9779) to work on /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:42:05.149+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/dags/news_pipeline.py for tasks to queue
+[2024-12-23T06:42:05.155+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:05.153+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:42:10.848+0700] {processor.py:925} INFO - DAG(s) 'news_pipeline' retrieved from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:42:10.891+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:10.887+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:42:11.071+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:11.070+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T06:42:11.145+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 6.019 seconds
+[2024-12-23T06:43:04.752+0700] {processor.py:186} INFO - Started process (PID=10001) to work on /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:43:04.756+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/dags/news_pipeline.py for tasks to queue
+[2024-12-23T06:43:04.762+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:04.760+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:43:11.292+0700] {processor.py:925} INFO - DAG(s) 'news_pipeline' retrieved from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:43:11.327+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:11.325+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:43:11.364+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:11.362+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T06:43:11.445+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 6.720 seconds
+[2024-12-23T06:44:05.519+0700] {processor.py:186} INFO - Started process (PID=10176) to work on /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:44:05.521+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/dags/news_pipeline.py for tasks to queue
+[2024-12-23T06:44:05.526+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:05.524+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:44:09.812+0700] {processor.py:925} INFO - DAG(s) 'news_pipeline' retrieved from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:44:09.852+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:09.850+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:44:10.031+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:10.030+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T06:44:10.101+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 4.603 seconds
+[2024-12-23T06:45:03.911+0700] {processor.py:186} INFO - Started process (PID=10308) to work on /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:45:03.914+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/dags/news_pipeline.py for tasks to queue
+[2024-12-23T06:45:03.918+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:03.917+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:45:10.220+0700] {processor.py:925} INFO - DAG(s) 'news_pipeline' retrieved from /mnt/d/Project/airflow-news/dags/news_pipeline.py
+[2024-12-23T06:45:10.253+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:10.251+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:45:10.292+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:10.290+0700] {dag.py:4180} INFO - Setting next_dagrun for news_pipeline to 2024-12-22 23:00:00+00:00, run_after=2024-12-23 00:00:00+00:00
+[2024-12-23T06:45:10.367+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/dags/news_pipeline.py took 6.480 seconds

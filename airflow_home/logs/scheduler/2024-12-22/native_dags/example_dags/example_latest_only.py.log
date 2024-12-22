@@ -335,3 +335,24 @@
 [2024-12-23T06:38:43.529+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:38:43.527+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:38:43.583+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:38:43.581+0700] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
 [2024-12-23T06:38:43.693+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.356 seconds
+[2024-12-23T06:40:42.981+0700] {processor.py:186} INFO - Started process (PID=9584) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:40:42.983+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-12-23T06:40:42.988+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:42.986+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:40:43.082+0700] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:40:43.120+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:43.119+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:40:43.161+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:43.159+0700] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
+[2024-12-23T06:40:43.247+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.289 seconds
+[2024-12-23T06:42:38.667+0700] {processor.py:186} INFO - Started process (PID=9861) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:42:38.669+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-12-23T06:42:38.675+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:38.673+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:42:38.771+0700] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:42:38.810+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:38.809+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:42:38.851+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:38.850+0700] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
+[2024-12-23T06:42:38.928+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.283 seconds
+[2024-12-23T06:44:38.001+0700] {processor.py:186} INFO - Started process (PID=10239) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:44:38.003+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-12-23T06:44:38.007+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:38.006+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:44:38.088+0700] {processor.py:925} INFO - DAG(s) 'latest_only' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py
+[2024-12-23T06:44:38.122+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:38.121+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:44:38.161+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:38.160+0700] {dag.py:4180} INFO - Setting next_dagrun for latest_only to 2024-12-22 16:00:00+00:00, run_after=2024-12-22 20:00:00+00:00
+[2024-12-23T06:44:38.234+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_latest_only.py took 0.253 seconds

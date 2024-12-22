@@ -401,3 +401,24 @@ sqlalchemy.exc.PendingRollbackError: This Session's transaction has been rolled 
 [2024-12-23T06:38:57.439+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:38:57.438+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:38:57.459+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:38:57.457+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
 [2024-12-23T06:38:57.537+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 0.256 seconds
+[2024-12-23T06:40:54.730+0700] {processor.py:186} INFO - Started process (PID=9616) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:40:54.732+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-12-23T06:40:54.737+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:54.735+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:40:54.843+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:40:56.395+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:56.394+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:40:56.414+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:56.413+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-12-23T06:40:56.495+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 1.785 seconds
+[2024-12-23T06:42:52.406+0700] {processor.py:186} INFO - Started process (PID=9888) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:42:52.408+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-12-23T06:42:52.415+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:52.412+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:42:52.530+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:42:52.769+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:52.767+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:42:52.787+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:52.785+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-12-23T06:42:52.869+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 2.249 seconds
+[2024-12-23T06:44:52.884+0700] {processor.py:186} INFO - Started process (PID=10283) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:44:52.887+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2024-12-23T06:44:52.893+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:52.891+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:44:53.024+0700] {processor.py:925} INFO - DAG(s) 'example_dag_decorator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py
+[2024-12-23T06:44:54.815+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:54.812+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:44:54.859+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:54.855+0700] {dag.py:4180} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2024-12-23T06:44:55.008+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_dag_decorator.py took 2.150 seconds

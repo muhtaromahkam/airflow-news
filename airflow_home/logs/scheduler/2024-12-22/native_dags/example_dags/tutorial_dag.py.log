@@ -580,3 +580,45 @@
 [2024-12-23T06:39:28.856+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:39:28.853+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:39:28.903+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:39:28.900+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
 [2024-12-23T06:39:29.042+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.450 seconds
+[2024-12-23T06:40:31.948+0700] {processor.py:186} INFO - Started process (PID=9557) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:40:31.951+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:40:31.956+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:31.955+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:40:32.060+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:40:32.099+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:32.098+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:40:32.122+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:40:32.120+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:40:32.194+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.272 seconds
+[2024-12-23T06:41:31.039+0700] {processor.py:186} INFO - Started process (PID=9710) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:41:31.042+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:41:31.046+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:31.044+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:41:31.097+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:41:31.135+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:31.134+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:41:31.156+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:41:31.155+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:41:31.230+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.215 seconds
+[2024-12-23T06:42:27.754+0700] {processor.py:186} INFO - Started process (PID=9835) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:42:27.756+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:42:27.760+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:27.758+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:42:27.837+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:42:27.876+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:27.875+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:42:27.897+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:42:27.896+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:42:27.969+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.236 seconds
+[2024-12-23T06:43:28.878+0700] {processor.py:186} INFO - Started process (PID=10081) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:43:28.881+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:43:28.885+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:28.884+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:43:28.976+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:43:29.012+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:29.011+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:43:29.032+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:43:29.030+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:43:29.111+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.255 seconds
+[2024-12-23T06:44:27.939+0700] {processor.py:186} INFO - Started process (PID=10225) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:44:27.941+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:44:27.945+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:27.944+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:44:28.042+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:44:28.082+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:28.081+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:44:28.106+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:44:28.105+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:44:28.181+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.263 seconds
+[2024-12-23T06:45:28.339+0700] {processor.py:186} INFO - Started process (PID=10386) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:45:28.342+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2024-12-23T06:45:28.347+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:28.345+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:45:28.443+0700] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2024-12-23T06:45:28.480+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:28.479+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:45:28.502+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:28.501+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2024-12-23T06:45:28.581+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.266 seconds
