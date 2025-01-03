@@ -384,3 +384,38 @@
 [2024-12-23T06:45:39.445+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:39.443+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:45:39.468+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:39.466+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
 [2024-12-23T06:45:39.551+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.273 seconds
+[2024-12-23T06:47:39.251+0700] {processor.py:186} INFO - Started process (PID=10678) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:47:39.255+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-23T06:47:39.262+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:39.260+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:47:39.373+0700] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:47:39.437+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:39.435+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:47:39.473+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:39.471+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-23T06:47:39.579+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.361 seconds
+[2024-12-23T06:49:33.259+0700] {processor.py:186} INFO - Started process (PID=10907) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:49:33.262+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-23T06:49:33.267+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:33.266+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:49:33.351+0700] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:49:33.391+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:33.389+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:49:33.411+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:33.410+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-23T06:49:33.483+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.244 seconds
+[2024-12-23T06:51:43.438+0700] {processor.py:186} INFO - Started process (PID=11157) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:51:43.443+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-23T06:51:43.460+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:43.453+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:51:43.619+0700] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:51:43.672+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:43.671+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:51:43.698+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:43.696+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-23T06:51:43.802+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.457 seconds
+[2024-12-23T06:53:51.168+0700] {processor.py:186} INFO - Started process (PID=11409) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:53:51.171+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-23T06:53:51.176+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:51.174+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:53:51.275+0700] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:53:51.317+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:51.315+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:53:51.337+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:51.335+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-23T06:53:51.421+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.277 seconds
+[2024-12-23T06:55:49.231+0700] {processor.py:186} INFO - Started process (PID=11649) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:55:49.234+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-12-23T06:55:49.239+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:49.237+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:55:49.315+0700] {processor.py:925} INFO - DAG(s) 'example_task_group' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py
+[2024-12-23T06:55:49.371+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:49.370+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:55:49.397+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:49.395+0700] {dag.py:4180} INFO - Setting next_dagrun for example_task_group to None, run_after=None
+[2024-12-23T06:55:49.485+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_task_group.py took 0.281 seconds

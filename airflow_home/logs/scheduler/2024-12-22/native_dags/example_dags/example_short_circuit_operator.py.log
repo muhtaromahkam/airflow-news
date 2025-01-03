@@ -363,3 +363,38 @@
 [2024-12-23T06:45:44.090+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:44.089+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:45:44.112+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:44.110+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
 [2024-12-23T06:45:44.203+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.283 seconds
+[2024-12-23T06:47:44.834+0700] {processor.py:186} INFO - Started process (PID=10684) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:47:44.836+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T06:47:44.843+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:44.841+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:47:44.956+0700] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:47:45.014+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:45.012+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:47:45.047+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:45.045+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T06:47:45.156+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.350 seconds
+[2024-12-23T06:49:38.520+0700] {processor.py:186} INFO - Started process (PID=10915) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:49:38.522+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T06:49:38.526+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:38.525+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:49:38.607+0700] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:49:38.652+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:38.651+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:49:38.672+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:38.671+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T06:49:38.747+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.248 seconds
+[2024-12-23T06:51:49.089+0700] {processor.py:186} INFO - Started process (PID=11165) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:51:49.091+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T06:51:49.097+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:49.094+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:51:49.191+0700] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:51:49.233+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:49.231+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:51:49.255+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:49.253+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T06:51:49.341+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.277 seconds
+[2024-12-23T06:53:56.684+0700] {processor.py:186} INFO - Started process (PID=11418) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:53:56.686+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T06:53:56.691+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:56.689+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:53:56.788+0700] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:53:56.832+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:56.830+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:53:56.854+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:56.853+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T06:53:56.938+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.277 seconds
+[2024-12-23T06:55:54.711+0700] {processor.py:186} INFO - Started process (PID=11658) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:55:54.714+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2024-12-23T06:55:54.720+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:54.718+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:55:54.811+0700] {processor.py:925} INFO - DAG(s) 'example_short_circuit_operator' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2024-12-23T06:55:54.853+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:54.852+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:55:54.872+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:54.871+0700] {dag.py:4180} INFO - Setting next_dagrun for example_short_circuit_operator to None, run_after=None
+[2024-12-23T06:55:54.953+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.267 seconds

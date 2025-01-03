@@ -370,3 +370,38 @@
 [2024-12-23T06:45:42.555+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:42.553+0700] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-23T06:45:42.594+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:45:42.592+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-23T06:45:42.674+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.268 seconds
+[2024-12-23T06:47:43.214+0700] {processor.py:186} INFO - Started process (PID=10681) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:47:43.217+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-23T06:47:43.225+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:43.222+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:47:43.336+0700] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:47:43.385+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:43.383+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:47:43.435+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:47:43.434+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T06:47:43.538+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.349 seconds
+[2024-12-23T06:49:36.986+0700] {processor.py:186} INFO - Started process (PID=10913) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:49:36.988+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-23T06:49:36.993+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:36.991+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:49:37.075+0700] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:49:37.111+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:37.110+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:49:37.148+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:49:37.147+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T06:49:37.220+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.255 seconds
+[2024-12-23T06:51:47.462+0700] {processor.py:186} INFO - Started process (PID=11163) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:51:47.464+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-23T06:51:47.469+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:47.467+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:51:47.565+0700] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:51:47.607+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:47.605+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:51:47.655+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:51:47.653+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T06:51:47.743+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.304 seconds
+[2024-12-23T06:53:55.663+0700] {processor.py:186} INFO - Started process (PID=11416) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:53:55.665+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-23T06:53:55.670+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:55.668+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:53:55.767+0700] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:53:55.816+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:55.815+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:53:55.865+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:53:55.863+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T06:53:55.950+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.309 seconds
+[2024-12-23T06:55:53.186+0700] {processor.py:186} INFO - Started process (PID=11655) to work on /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:55:53.188+0700] {processor.py:914} INFO - Processing file /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-12-23T06:55:53.192+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:53.191+0700] {dagbag.py:588} INFO - Filling up the DagBag from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:55:53.282+0700] {processor.py:925} INFO - DAG(s) 'example_skip_dag' retrieved from /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-12-23T06:55:53.318+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:53.316+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-23T06:55:53.361+0700] {logging_mixin.py:190} INFO - [2024-12-23T06:55:53.359+0700] {dag.py:4180} INFO - Setting next_dagrun for example_skip_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-23T06:55:53.440+0700] {processor.py:208} INFO - Processing /mnt/d/Project/airflow-news/venv/lib/python3.12/site-packages/airflow/example_dags/example_skip_dag.py took 0.275 seconds
