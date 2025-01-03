@@ -1,13 +1,15 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 import requests
 import pandas as pd
 import sqlite3
 import os
 
 # Konfigurasi API News
-API_KEY = "YOUR_API_KEY"
+load_dotenv()  # Memuat file .env
+API_KEY = os.getenv("API_KEY")
 BASE_URL = "https://newsapi.org/v2/top-headlines"
 
 def fetch_news():
