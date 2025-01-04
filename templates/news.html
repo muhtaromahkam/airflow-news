@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+    <h1>News</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Source</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Published</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in news %}
+            <tr>
+                <td>{{ article.source_name }}</td>
+                <td>{{ article.title }}</td>
+                <td>{{ article.description }}</td>
+                <td>{{ article.publishedAt }}</td>
+                <td><a href="{{ article.url }}" target="_blank">Read more</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
